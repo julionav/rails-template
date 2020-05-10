@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    standard:
+      glob: "*.rb"
+      run: bundle exec standard --fix {staged_files}
