@@ -29,6 +29,9 @@ group :development, :test do
 
   # Seed manager https://github.com/vigetlabs/sprig
   gem "sprig", "~> 0.3.0"
+
+  # Fake data creator
+  gem 'factory_bot_rails'
 end
 
 group :development do
